@@ -1,1 +1,147 @@
+body
+{
+	font-family: Arial, Georgia, sans-serif;
+	margin:0;
+}
+
+#conteneur
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav
+{
+	margin-top: 15px;
+	margin-right: 8px;
+	font-size: 0.8em;
+}
+
+.element
+{
+	margin-left: 8px;
+	margin-right: 8px;
+	text-decoration: none;
+}
+
+.element:nth-child(4)
+{
+	font-weight: bold;
+	color: white;
+	background-color: #4386FB;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#conteneurb
+
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 120px;
+}
+
+
+.barre
+{
+	width: 559px;
+	height: 34px;
+	outline: none;
+	border: none;
+}
+
+.div_barre
+{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:44px;
+	width: 584px;
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0
+	rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08)
+}
+
+.boutons
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 18px;
+}
+
+.boutona, .boutonb
+{
+	font-size: 13px; 
+	font-weight: bold;
+	font-family: Arial;
+	color: #757575;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	margin: 11px 4px; 
+	padding: 11px 16px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	background:#F2F2F2;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:82px;
+	color: rgba(0,0,0,.54);
+	font-size: small;
+	border-top: 1px solid #ccc;
+	overflow: hidden;
+	padding-left: 27px;
+    line-height: 40px;
+}
+
+.premiereligne
+{
+	display: flex;
+	font-size: 1.1em;
+    color: rgba(0,0,0,0.54);
+    height: 41;
+    text-align: left;
+    border-top: 1px solid #e4e4e4
+}
+
+.lien
+{ 
+	display: flex;
+	justify-content: center;
+	color: rgba(0,0,0,0.54);
+	height:41;
+	padding-right: 27px;
+}
+
+.deuxiemeligne 
+{
+	display:flex;
+	flex-direction: row;
+	margin-right: 30px;
+	justify-content: space-between;
+	border-top: 1px solid #e4e4e4;
+	padding-left: 27px;
+}
+
+.part1
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.part2
+{
+	display: flex;
+	flex-direction: row;
+}
 
